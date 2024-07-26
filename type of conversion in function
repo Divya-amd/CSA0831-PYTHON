@@ -1,0 +1,7 @@
+num_int = 10
+num_float = 3.5
+result = num_int + num_float  # num_int is implicitly converted to float
+print(result)  # Output: 13.5
+print(type(result))  # Output: <class 'float'>
+
+
