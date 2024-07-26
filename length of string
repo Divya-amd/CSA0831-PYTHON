@@ -1,0 +1,3 @@
+n="Divyashank"
+print(len(n))
+10
