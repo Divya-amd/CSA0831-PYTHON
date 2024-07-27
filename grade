@@ -1,0 +1,9 @@
+m=95
+if(m>90):
+    print("s grade")
+if(m>80):
+    print("a grade")
+if(m>70):
+    print("b grade")
+if(m<50):
+    print("f grade")
