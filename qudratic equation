@@ -1,0 +1,19 @@
+import math
+a=5
+b=4
+c=3
+d=(b*b)-(-4*a*c)
+
+if(d>0):
+    root1=(-b+math.sqrt(d)/(2*a))
+    root2=(-b-math.sqrt(d)/(2*a))
+    print("Two distinict real root exists:root1=%.2f and root2=%2.f"%(root1,root2))
+elif(d==0):
+    root1=root2=b/(2*a)
+    print("two eval and real roots exists:root1=%.2f and root2=%2.f"%(root1,root2))
+else:
+    root1 = root2 = -b / (2*a)
+    imaginary=math.sqrt(-d)/(2 * a)
+    print("two distinict complex root exists:root1=%2f+%2f and root2=%2f-%2f"%(root1,imaginary,root2,imaginary))
+
+          
