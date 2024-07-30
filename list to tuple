@@ -1,0 +1,4 @@
+def convert(list):
+    a=tuple(list)
+    print(a)
+convert([6,8,9,4])
